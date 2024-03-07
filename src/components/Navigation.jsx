@@ -15,6 +15,9 @@ const Navigation = () => {
         <Link as={RouterLink} to="/candidate-profile" px={2}>
           Candidate Profile
         </Link>
+        <Link as={RouterLink} to="/about-us" px={2}>
+          About Us
+        </Link>
       </Box>
     </Flex>
   );
